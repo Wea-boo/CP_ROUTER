@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.movie-card{
+  height: 500px;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  position: relative;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px;
+  position: relative;
+  min-height: 510px;
+
+}
